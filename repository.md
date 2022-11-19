@@ -92,6 +92,14 @@ JSONファイルは、4部構成に分かれています。
                 "https://example.com/sample1.jpg"
             ]
         }
+    ],
+    "news": [
+        {
+            "title": "Publisher配信開始！",
+            "type": "news",
+            "date": 1667723550,
+            "description": "Publisher release on GitHub!\nYou can download this application on GitHub Release"
+        }
     ]
 }
 ```
