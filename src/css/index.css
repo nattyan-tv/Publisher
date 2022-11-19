@@ -1,0 +1,13 @@
+body {
+    font-family: NotoSans;
+}
+
+.repository_app_content {
+    display: flex;
+    margin: 0px auto;
+}
+
+.repository_news_content {
+    display: flex;
+    margin: 0px auto;
+}

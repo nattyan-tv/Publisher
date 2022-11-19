@@ -1,0 +1,19 @@
+.application_icon_small {
+    width: 50px;
+    height: 50px;
+}
+
+.application_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.application_box {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 8px;
+    background: rgba(237, 237, 237, 0.1);
+}

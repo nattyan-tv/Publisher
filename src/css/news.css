@@ -1,0 +1,24 @@
+.news_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.news_description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.8em;
+    color: rgb(41, 41, 41);
+}
+
+
+.news_box {
+    width: 100%;
+    overflow: hidden;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 8px;
+    background: rgba(237, 237, 237, 0.1);
+}

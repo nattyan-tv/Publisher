@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Publisher</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';"/>
+        <link href="./css/fonts.css" rel="stylesheet">
+        <link href="./css/index.css" rel="stylesheet">
+        <link href="./css/application.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Publisher</h1>
+        <hr>
+        <div id="main_content">
+        </div>
+        <!-- テンプレート -->
+        <template id="repository_temp">
+            <div>
+                <h2 class="repository_title"></h2>
+                <div class="repository_content">
+                </div>
+                <hr>
+            </div>
+        </template>
+        <template id="application_temp">
+            <div style="display: flex; width: 100%;">
+                <img class="application_icon_small">
+                <div class="application_title"></div>
+            </div>
+        </template>
+    </body>
+</html>
